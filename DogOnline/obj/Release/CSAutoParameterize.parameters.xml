@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DogOnlineDBContext-Web.config Connection String" description="DogOnlineDBContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=DogOnlineDBContext-20140827132112; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|DogOnlineDBContext-20140827132112.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Xiao\\Documents\\Visual\ Studio\ 2013\\Projects\\DogOnline\\DogOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DogOnlineDBContext']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="DogOnline" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Xiao\\Documents\\Visual\ Studio\ 2013\\Projects\\DogOnline\\DogOnline\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Xiao\\Documents\\Visual\ Studio\ 2013\\Projects\\DogOnline\\DogOnline\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DogOnlineDBContext-Web.config Connection String" description="" value="Data Source=tcp:fe8c5dpf15.database.windows.net,1433;Initial Catalog=DogOnlineDB;User Id=xiaohan@fe8c5dpf15;Password=Hanxiao19821015" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Xiao\\Documents\\Visual\ Studio\ 2013\\Projects\\DogOnline\\DogOnline\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DogOnlineDBContext']/@connectionString" />
+  </parameter>
+</parameters>
